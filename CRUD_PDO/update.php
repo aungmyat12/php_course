@@ -42,7 +42,7 @@ require_once "inc/header.php";
         $sql = "UPDATE crud SET name=?,image=? WHERE id=?";
         $res = $pdo->prepare($sql);
         $res->execute([$name,$image_name,$id]);
-        header("location:index.php");
+        header("location:index.php?update=success");
     }
 ?>
 <?php

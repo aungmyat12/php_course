@@ -14,6 +14,12 @@ if(isset($_GET['delete'])) { ?>
     <?php
 }
 ?>
+<?php
+if(isset($_GET['update'])) { ?>
+    <div class="alert alert-success">Updated Success</div>
+    <?php
+}
+?>
 <a href="create.php" class="btn btn-success btn-sm mb-3">Create</a>
 <table class="table table-striped">
     <tr>
