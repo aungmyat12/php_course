@@ -4,5 +4,5 @@ if(isset($_GET['id'])) {
     $id = $_GET['id'];
     $sql = "DELETE FROM crud WHERE id=?";
     $res = $pdo->prepare($sql)->execute([$id]);
-    header('location:index.php?delete=success');
+    header('location:DB.php?delete=success');
 }

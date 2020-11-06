@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
     // redirect to index
-    header("location:index.php?create=success");
+    header("location:DB.php?create=success");
 }
 ?>
 <?php

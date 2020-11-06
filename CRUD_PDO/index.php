@@ -10,7 +10,7 @@ if(isset($_GET['create'])) { ?>
 ?>
 <?php
 if(isset($_GET['delete'])) { ?>
-    <div class="alert alert-delete">Deleted Success</div>
+    <div class="alert alert-danger">Deleted Success</div>
     <?php
 }
 ?>

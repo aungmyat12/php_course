@@ -1,0 +1,6 @@
+<?php
+require_once "autoload.php";
+?>
+<html>
+<h1>Index</h1>
+</html>
